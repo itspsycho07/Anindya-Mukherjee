@@ -1,0 +1,21 @@
+1)Explain linear search and binary search algorithms.
+Ans: Linear Search:
+
+Description: A straightforward search algorithm that checks each element in a list one by one until the desired element is found or the list ends.
+Best Use Case: Suitable for small or unsorted data sets.
+Binary Search:
+
+Description: An efficient search algorithm that repeatedly divides a sorted list in half to find the desired element
+Best Use Case: Suitable for large, sorted data sets.
+
+2)Compare the time complexity of linear and binary search.
+Ans: Linear Search:
+Worst-case: O(n)
+Best-case: O(1) if the desired element is the first one.
+Average-case: O(n)
+
+Binary Search:
+Worst-case: O(log n)
+Best-case: O(1) if the desired element is the middle one.
+Average-case: O(log n)
+

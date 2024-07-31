@@ -1,0 +1,27 @@
+1) Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+Ans: Bubble Sort: A simple sorting algorithm where each pair of adjacent elements is compared and swapped if they are in the wrong order.
+     
+     Insertion sort: It is a simple sorting algorithm that works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list
+    
+     Quick Sort: A divide-and-conquer algorithm that selects a 'pivot' element and partitions the array into two sub-arrays according to whether the elements are less than or greater than the pivot.
+     
+     Merge Sort: A divide-and-conquer algorithm that divides the array into two halves, recursively sorts them, and then merges the sorted halves.
+
+2)Compare the performance (time complexity) of Bubble Sort and Quick Sort.
+Ans: Bubble Sort:
+
+Time Complexity:
+Best-case: O(n) 
+Average-case: O(n^2) 
+Worst-case: O(n^2) 
+
+Quick Sort:
+
+Time Complexity:
+Best-case: O(n log n) 
+Average-case: O(n log n) 
+Worst-case: O(n^2) 
+
+3)Discuss why Quick Sort is generally preferred over Bubble Sort.
+Ans: Quick Sort has better average-case performance (O(n log n)) compared to Bubble Sort's O(n^2).
+     Quick Sort handles larger data more efficiently due to its time complexity in the average case

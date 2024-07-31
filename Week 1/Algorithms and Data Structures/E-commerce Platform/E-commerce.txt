@@ -1,0 +1,21 @@
+1)Explain Big O notation and how it helps in analyzing algorithms.
+Ans: Big O notation is a mathematical notation used in computer science to describe the upper bound or worst-case scenario of the runtime complexity of an algorithm in terms of the input size.
+
+2)Describe the best, average, and worst-case scenarios for search operations.
+Ans: Best-case: The minimum time an algorithm takes to complete.
+     Average-case: The expected time an algorithm takes to complete.
+     Worst-case: The maximum time an algorithm takes to complete.
+
+3)Compare the time complexity of linear and binary search algorithms.
+Ans: Linear Search:
+        Best-case: O(1)
+        Average-case: O(n) 
+        Worst-case: O(n) 
+     Binary Search:
+        Best-case: O(1) 
+        Average-case: O(log n)
+        Worst-case: O(log n) 
+
+4)Discuss which algorithm is more suitable for your platform and why.
+Ans: Linear Search: for small arrays or unsorted data.
+     Binary Search: for large, sorted arrays.

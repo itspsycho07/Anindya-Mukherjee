@@ -1,0 +1,29 @@
+1)Explain how arrays are represented in memory and their advantages.
+Ans: Array Representation in Memory:
+
+        i)Arrays are stored in contiguous memory locations.
+        ii)The memory address of the ith element can be calculated as base address + i * element size, where base address is the address of the first element and element size is the size of each element.
+
+Advantages of Arrays:
+
+        i)Fixed Size.
+        ii)Allows constant time (O(1)) access to elements using their index.
+        iii)Contiguous Memory Allocation.
+
+2)Analyze the time complexity of each operation (add, search, traverse, delete).
+Ans: Add:
+Best-case: O(1) - Adding at the next available index.
+Worst-case: O(1) - Adding at the last available index.
+Search:
+Best-case: O(1) - If the employee is at the first position.
+Worst-case: O(n) - If the employee is at the last position or not found.
+Traverse:
+O(n) - Visiting each element once.
+Delete:
+Best-case: O(1) - If the employee is at the last position.
+Worst-case: O(n) - If the employee is at the first position (due to shifting).
+
+3)Discuss the limitations of arrays and when to use them.
+Ans: Fixed Size: The size of the array is fixed at the time of creation, which can lead to wasted memory if the array is underutilized or insufficient capacity if the array is overutilized.
+Insertion and Deletion: These operations can be costly (O(n)) if they require shifting elements.
+Contiguous Memory: Requires a contiguous block of memory, which may not always be available.

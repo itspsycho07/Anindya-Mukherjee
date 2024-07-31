@@ -1,0 +1,20 @@
+1)Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+Ans: Singly Linked List:
+         Each node contains data and a reference (or link) to the next node in the sequence.
+         Traversal takes only in one direction.
+
+    Doubly Linked List:
+         Each node contains data, a reference to the next node, and a reference to the previous node.
+         Allows traversal in both directions (forward and backward).
+
+2)Analyze the time complexity of each operation.
+Ans: Add:
+O(1) - Adding at the beginning of the list.
+Search:
+O(n) - In the worst case, if the task is at the end of the list or not present.
+Traverse:
+O(n) - Visiting each node once.
+Delete:
+Best-case: O(1) - If the task is at the beginning of the list.
+Worst-case: O(n) - If the task is at the end of the list or not present.
+
